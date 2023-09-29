@@ -398,6 +398,7 @@
   </data>
   <data name="VisitOurWebsiteDescription" xml:space="preserve">
     <value>Yardım almak, haberlere göz atmak, bize ulaşmak ve Bitwarden'ı kullanmayı öğrenmek için web sitemizi ziyaret edin.</value>
+    <comment>DEPRECATED</comment>
   </data>
   <data name="Website" xml:space="preserve">
     <value>Web sitesi</value>
@@ -453,6 +454,7 @@
   </data>
   <data name="ChangePasswordConfirmation" xml:space="preserve">
     <value>Ana parolanızı bitwarden.com web kasası üzerinden değiştirebilirsiniz. Siteye gitmek ister misiniz?</value>
+    <comment>DEPRECATED</comment>
   </data>
   <data name="Close" xml:space="preserve">
     <value>Kapat</value>
@@ -709,6 +711,7 @@
   </data>
   <data name="TwoStepLoginConfirmation" xml:space="preserve">
     <value>İki aşamalı giriş, hesabınıza girererken işlemi bir güvenlik anahtarı, şifrematik uygulaması, SMS, telefon araması veya e-posta gibi ek bir yöntemle doğrulamanızı isteyerek hesabınızın güvenliğini artırır. İki aşamalı giriş özelliğini bitwarden.com web kasası üzerinden ayarlayabilirsiniz. Şimdi siteye gitmek ister misiniz?</value>
+    <comment>DEPRECATED</comment>
   </data>
   <data name="UnlockWith" xml:space="preserve">
     <value>Kilidi {0} ile aç</value>
@@ -1560,6 +1563,7 @@ Kod otomatik olarak taranacaktır.</value>
   </data>
   <data name="DefaultDarkThemeDescription" xml:space="preserve">
     <value>Varsayılan (sistem) temayı kullanırken cihazınızın koyu modu açıldığında koyu temaya geçmek için bunu seçin.</value>
+    <comment>DEPRECATED</comment>
   </data>
   <data name="CopyNotes" xml:space="preserve">
     <value>Notu kopyala</value>
@@ -2655,7 +2659,7 @@ Bu hesaba geçmek ister misiniz?</value>
   </data>
   <data name="CreatedX" xml:space="preserve">
     <value>Oluşturma: {0}</value>
-    <comment>To state the date in which the cipher was created: Created 03/21/2023</comment>
+    <comment>DEPRECATED To state the date in which the cipher was created: Created 03/21/2023</comment>
   </data>
   <data name="Application" xml:space="preserve">
     <value>Uygulama</value>
@@ -2679,7 +2683,7 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>Ana parola yeniden istemi yardımı</value>
   </data>
   <data name="UnlockingMayFailDueToInsufficientMemoryDecreaseYourKDFMemorySettingsToResolve" xml:space="preserve">
-    <value>Unlocking may fail due to insufficient memory. Decrease your KDF memory settings or set up biometric unlock to resolve.</value>
+    <value>Yetersiz bellek nedeniyle kilit açma başarısız olabilir. Çözüm için, KDF bellek ayarlarınızı düşürün ya da biyometrik kilit açmayı ayarlayın.</value>
   </data>
   <data name="InvalidAPIKey" xml:space="preserve">
     <value>Geçersiz API anahtarı</value>
@@ -2761,7 +2765,113 @@ Bu hesaba geçmek ister misiniz?</value>
     <value>Cihazla giriş yap</value>
   </data>
   <data name="LoggingInOn" xml:space="preserve">
-    <value>Logging in on</value>
+    <value>Giriş yapılan yer</value>
+  </data>
+  <data name="Vault" xml:space="preserve">
+    <value>Kasa</value>
+  </data>
+  <data name="Appearance" xml:space="preserve">
+    <value>Görünüm</value>
+  </data>
+  <data name="AccountSecurity" xml:space="preserve">
+    <value>Hesap güvenliği</value>
+  </data>
+  <data name="BitwardenHelpCenter" xml:space="preserve">
+    <value>Bitwarden Yardım Merkezi</value>
+  </data>
+  <data name="ContactBitwardenSupport" xml:space="preserve">
+    <value>Bitwarden destek ekibiyle iletişime geçin</value>
+  </data>
+  <data name="CopyAppInformation" xml:space="preserve">
+    <value>Uygulama bilgilerini kopyala</value>
+  </data>
+  <data name="SyncNow" xml:space="preserve">
+    <value>Şimdi eşitle</value>
+  </data>
+  <data name="UnlockOptions" xml:space="preserve">
+    <value>Unlock options</value>
+  </data>
+  <data name="SessionTimeout" xml:space="preserve">
+    <value>Oturum zaman aşımı</value>
+  </data>
+  <data name="SessionTimeoutAction" xml:space="preserve">
+    <value>Oturum zaman aşımı eylemi</value>
+  </data>
+  <data name="AccountFingerprintPhrase" xml:space="preserve">
+    <value>Hesap parmak izi ifadesi</value>
+    <comment>A 'fingerprint phrase' is a unique word phrase (similar to a passphrase) that a user can use to authenticate their public key with another user, for the purposes of sharing.</comment>
+  </data>
+  <data name="OneHourAndOneMinute" xml:space="preserve">
+    <value>1 saat 1 dakika</value>
+  </data>
+  <data name="OneHourAndXMinute" xml:space="preserve">
+    <value>1 saat {0} dakika</value>
+  </data>
+  <data name="XHoursAndOneMinute" xml:space="preserve">
+    <value>{0} saat 1 dakika</value>
+  </data>
+  <data name="XHoursAndYMinutes" xml:space="preserve">
+    <value>{0} saat {1} dakika</value>
+  </data>
+  <data name="XHours" xml:space="preserve">
+    <value>{0} saat</value>
+  </data>
+  <data name="AutofillServicesExplanationLong" xml:space="preserve">
+    <value>Android Otomatik Doldurma Çerçevesi, oturum açma bilgilerinin cihazınızdaki diğer uygulamalara doldurulmasına yardımcı olmak için kullanılır.</value>
+  </data>
+  <data name="UseInlineAutofillExplanationLong" xml:space="preserve">
+    <value>Use inline autofill if your selected keyboard supports it. Otherwise, use the default overlay.</value>
+  </data>
+  <data name="AdditionalOptions" xml:space="preserve">
+    <value>Ek seçenekler</value>
+  </data>
+  <data name="ContinueToWebApp" xml:space="preserve">
+    <value>Web uygulamasına devam edilsin mi?</value>
+  </data>
+  <data name="ContinueToX" xml:space="preserve">
+    <value>{0} ile devam edilsin mi?</value>
+    <comment>The parameter is an URL, like bitwarden.com.</comment>
+  </data>
+  <data name="ContinueToHelpCenter" xml:space="preserve">
+    <value>Yardım merkezine devam edilsin mi?</value>
+  </data>
+  <data name="ContinueToContactSupport" xml:space="preserve">
+    <value>Continue to contact support?</value>
+  </data>
+  <data name="ContinueToAppStore" xml:space="preserve">
+    <value>Continue to app store?</value>
+  </data>
+  <data name="TwoStepLoginDescriptionLong" xml:space="preserve">
+    <value>Bitwarden web uygulamasında iki adımlı giriş ayarlayarak hesabınızı daha güvenli hale getirin.</value>
+  </data>
+  <data name="ChangeMasterPasswordDescriptionLong" xml:space="preserve">
+    <value>Ana şifrenizi Bitwarden web uygulamasında değiştirebilirsiniz.</value>
+  </data>
+  <data name="YouCanImportDataToYourVaultOnX" xml:space="preserve">
+    <value>You can import data to your vault on {0}.</value>
+    <comment>The parameter is an URL, like vault.bitwarden.com.</comment>
+  </data>
+  <data name="LearnMoreAboutHowToUseBitwardenOnTheHelpCenter" xml:space="preserve">
+    <value>Yardım merkezinde Bitwarden'ın nasıl kullanılacağı hakkında daha fazla bilgi edinin.</value>
+  </data>
+  <data name="ContactSupportDescriptionLong" xml:space="preserve">
+    <value>Aradığınızı bulamıyor musunuz? Bitwarden.com adresinden Bitwarden desteğine ulaşın.</value>
+  </data>
+  <data name="ExploreMoreFeaturesOfYourBitwardenAccountOnTheWebApp" xml:space="preserve">
+    <value>Web uygulamasında Bitwarden hesabınızın diğer özelliklerini keşfedin.</value>
+  </data>
+  <data name="LearnAboutOrganizationsDescriptionLong" xml:space="preserve">
+    <value>Bitwarden allows you to share your vault items with others by using an organization. Learn more on the bitwarden.com website.</value>
+  </data>
+  <data name="RateAppDescriptionLong" xml:space="preserve">
+    <value>Başkalarının Bitwarden'ın kendileri için uygun olup olmadığını öğrenmelerine yardımcı olun. Uygulama mağazasını ziyaret edin ve şimdi bir derecelendirme bırakın.</value>
+  </data>
+  <data name="DefaultDarkThemeDescriptionLong" xml:space="preserve">
+    <value>Cihazınızın karanlık modu kullanımdayken kullanılacak koyu temayı seçin</value>
+  </data>
+  <data name="CreatedXY" xml:space="preserve">
+    <value>Oluşturulma: {0} {1}</value>
+    <comment>To state the date/time in which the cipher was created: Created 03/21/2023, 09:25 AM. First parameter is the date and the second parameter is the time.</comment>
   </data>
   <data name="TooManyAttempts" xml:space="preserve">
     <value>Çok fazla deneme</value>
